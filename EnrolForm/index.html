@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Enrolment Form</title>
+</head>
+<body>
+    <form action="action_page.php">
+        <div class="container">
+          <h1>Course Enrolment Form</h1>
+          <p>Please complete the Enrolment Form, to enrol on one of the following courses.</p>
+          <hr>
+
+          <label for="username"><b>Username</b></label>
+          <input type="text" placeholder="Enter username" name="username" id="username" required>
+
+          <label for="password"><b>Password</b></label>
+          <input type="text" placeholder="Enter Password" name="password" id="password" required>
+
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Email" name="email" id="email" required>
+
+          <label for="firstname"><b>First Name</b></label>
+          <input type="text" placeholder="First Name" name="firstname" id="firstname">
+
+          <label for="surname"><b>Surname</b></label>
+          <input type="text" placeholder="Surname" name="surname" id="surname">
+
+          <input type="radio" id="course" name="Master Coding" value="course">
+          <label for="course">Master Coding</label><br>
+
+          <input type="radio" id="course" name="Master Cyber" value="course">
+          <label for="course">Master Cyber</label>
+
+          <hr>
+      
+          <button type="submit" class="registerbtn">Enrolment</button>
+
+      </form>
+</body>
+</html>
